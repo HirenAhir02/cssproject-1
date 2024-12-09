@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body{
+            background-image: url("img/richard-horvath-_nWaeTF6qo0-unsplash.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            background-size: cover;
+            
+        }
+        .hiren{
+            
+            background-color: slategrey;
+            margin-left: 10px;
+            margin-right: 10px;
+            height: 50px;
+            border: 2px solid black;
+            outline: 2px solid red;
+            outline-offset: 5px;
+        }
+        .h{
+            color: black;
+            float: left;
+            padding-left: 20px;
+            margin-top: 5px;
+            text-transform:capitalize; 
+        }
+
+        a{
+            color: black;
+            text-decoration: none;
+        }
+
+        a:hover{
+            color: rgb(0, 255, 17);
+            border: 2px solid black;
+            border-radius: 10px;
+        }
+
+        .s{
+            background-color: rgb(255, 255, 255);
+            width: 150px;
+            float: inline-end;
+            margin-top: 5px;
+            padding-right: 20px;
+            padding-left: 30px; 
+            
+        }
+        .s i{
+            color:slategrey;
+            margin-right: 20px;
+        }
+
+        .slid{
+            background-image: linear-gradient(to bottom right,white,pink,yellow);
+            width: 200px;
+            height: 500px;
+            margin-top: 20px;
+            margin-left: 10px;
+            overflow: auto;
+            overflow-x: hidden;
+            position: absolute;
+            float: left;
+        }
+
+        .cont img{
+            width: 170px;
+            height: 100px;
+            margin: 10px 15px;
+        }
+
+        .manu{
+            /* background-image: linear-gradient(to bottom right,white,pink,yellow); */
+            background-image: url("./img/richard-horvath-is8jWT-mvng-unsplash.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            width: 900px;
+            height: 350px;
+            margin-left: 300px;
+            border-radius: 30px;
+        }
+
+        .hading{
+            text-align: center;
+            color: white;
+            text-shadow: 2px 2px 5px black;
+            font-size: 60px;    
+        }
+
+        label{
+            color: white;
+            margin-left: 300px;
+            font-size: 30px;
+            font-weight: bold;
+            text-transform: capitalize;
+        }
+
+        input{
+                background-color: rgba(0, 0, 0, 0);
+                border: none;
+                border-bottom:3px solid rgb(0, 0, 0);
+                padding-left: 20px;
+                color: white;
+                font-weight: bold;
+                font-size: 20px;
+                width: 160px;
+        }
+
+        button{
+            color: palevioletred;
+            margin-left: 400px;
+            margin-top: 50px;
+            width: 100px;
+            height: 40px;
+            font-size: 20px;
+            font-weight: bold;
+            transition-duration: 2s;  
+        }
+
+        button:hover{
+            transform: scaleX(1.6);
+        }
+
+        .fotar{
+            background-image: linear-gradient(to bottom right,black, pink ,orange);
+            width:900px;
+            height: 100px;
+            margin-left: 300px;
+            margin-top: 20px;
+            border-radius: 20px;
+        }
+
+        .had{
+            font-size: 40px;
+        }
+
+        span{
+            color:red;
+            font-size: 45px;
+        }
+    </style>
+</head>
+<body> 
+        <div class="hiren">
+            <h1 class="h "><a href="#">Home</a></h1>
+            <h1 class="h"><a href="#">meet</a></h1>
+            <h1 class="h"><a href="#">hiren</a></h1>
+            <h1 class="h"><a href="#">meet</a></h1>
+            <h1 class="s"><i class="fa-solid fa-magnifying-glass"></i>serach</h1>
+        </div>
+
+        <div class="slid">
+              <div class="cont">
+                    <img src="./img/images (1).jpeg" alt="">
+                    <img src="./img/images (2).jpeg" alt="">
+                    <img src="./img/images (3).jpeg" alt="">
+                    <img src="./img/images (4).jpeg" alt="">
+                    <img src="./img/images (1).jpeg" alt="">
+                    <img src="./img/images (2).jpeg" alt="">
+                    <img src="./img/images (3).jpeg" alt="">
+                    <img src="./img/images (4).jpeg" alt="">
+              </div>
+        </div>
+
+        <div class="manu">
+            <div class="main">
+                <form action="">
+                    <h1 class="hading">user login</h1>
+                    <label for="name">name :</label>
+                    <input type="text" name="" id="">
+                    <label for="pass">passw:</label>
+                    <input type="text" name="" id=""><br>
+                    <button>Login</button>  
+                </form>
+            </div>
+        </div>
+
+        <div class="fotar">
+            <div >
+               <marquee behavior=""  direction=""><h1 class="had"><i class="fa-solid fa-thumbs-up"></i> contact us : <span> 9911221199</span>help line no. is <span> 9911001199</span><i class="fa-solid fa-thumbs-up"></i></h1></marquee> 
+            </div>
+        </div>
+</body>
+</html>
